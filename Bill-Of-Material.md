@@ -17,20 +17,22 @@ This list is evolving. Verify quantities and dimensions against the CAD before o
 | BHCS M5x10             |                    |  17 |     |
 | BHCS M5x16             |                    |  32 |     |
 | BHCS M5x8              |                    |   2 |     |
-| Bondtech Drivegear Kit |                    |   4 | [AliExpress](https://de.aliexpress.com/item/1005002625059015.html?spm=a2g0o.order_list.order_list_main.46.65815c5f4TLUIp&gatewayAdapt=glo2deu) |
+| Bondtech Drivegear Kit |                    |   4 | [AliExpress](https://de.aliexpress.com/item/1005002625059015.html) |
 | Ceramic Fiber Paper 1 mm |                  |   1 | [AliExpress](https://de.aliexpress.com/item/1005002970120483.html) |
 | DIN Rail 200 mm        |                    |   2 | [Amazon](https://www.amazon.de/gp/product/B0B5655CLB) |
+| Drawer Runners Full Extension, 400 mm or 16 inch Length, 35 mm Width, 25 kg |                    |   4 | [AliExpress](https://de.aliexpress.com/item/1005011654143417.html) |
 | Drop-In T-Nut M3       |                    |  12 |     |
 | Drop-In T-Nut M5       |                    |   6 |     |
 | DSPOWER 21g Metal Gear Servo |              |   4 | [AliExpress](https://de.aliexpress.com/item/1005007514640225.html) |
-| ECAS04 Collet          |                    |  12 | [AliExpress](https://de.aliexpress.com/item/32934148155.html?spm=a2g0o.order_list.order_list_main.65.65815c5f4TLUIp&gatewayAdapt=glo2deu) |
-| ECAS04 Collet Clip     |                    |  12 | [AliExpress](https://de.aliexpress.com/item/32892392365.html?spm=a2g0o.order_list.order_list_main.66.65815c5f4TLUIp&gatewayAdapt=glo2deu) |
+| ECAS04 Collet          |                    |  12 | [AliExpress](https://de.aliexpress.com/item/32934148155.html) |
+| ECAS04 Collet Clip     |                    |  12 | [AliExpress](https://de.aliexpress.com/item/32892392365.html) |
 | Hammerhead T-Nut M3    |                    |  63 |     |
 | Heatset Insert M3      |                    |  20 |     |
 | Heatset Insert M4      |                    |   4 |     |
 | Hex Nut M3             |                    |   2 |     |
 | Hex Nut M4             |                    |   1 |     |
 | Hex Nut M5             |                    |  20 |     |
+| ID Card Badge Clip     |                    |   8 | [Amazon](https://www.amazon.de/dp/B0B1DL7PZ1) |
 | JGB37-3525 BLDC Motor 24 V 952 rpm |        |   2 | [AliExpress](https://de.aliexpress.com/item/1005007426917339.html) |
 | KHFS5-2020-200         |                    |   4 |     |
 | KHFS5-2020-420         |                    |   6 |     |
@@ -49,8 +51,8 @@ This list is evolving. Verify quantities and dimensions against the CAD before o
 | Micro Switch           |                    |   9 | [Amazon](https://www.amazon.de/DAOKAI-Endschalter-Scharnier-gerader-Momentschalter/dp/B09WVMRD5V) |
 | MR825 Ballbearing 5x8  |                    |  10 |     |
 | MR85ZZ Ballbearing     |                    |   4 |     |
-| Neodymium Magnets 6x3 mm N35    |           |   8 | [AliExpress](https://de.aliexpress.com/item/1005001659036298.html?spm=a2g0o.order_list.order_list_main.5.65815c5f4TLUIp&gatewayAdapt=glo2deu) |
-| PC4-M10 Fitting (4 mm) |                    |   1 |     |
+| Neodymium Magnets 6x3 mm N35    |           |   8 | [AliExpress](https://de.aliexpress.com/item/1005001659036298.html) |
+| PC4-M10 Fitting        |                    |   1 |     |
 | PHCS M2x8              |                    |   8 |     |
 | PHCS M3x25             |                    |   4 |     |
 | PTC Heater 200 W       |                    |   1 | [Amazon](https://www.amazon.de/gp/product/B08YYZRRYQ) |
@@ -67,7 +69,7 @@ This list is evolving. Verify quantities and dimensions against the CAD before o
 | Wago 221-415           |                    |   2 |     |
 | Washer DIN 125-2 3.2   |                    |  16 |     |
 | Zip Ties 100x2.5 mm    |                    |   ? | [Amazon](https://www.amazon.de/gp/product/B07QHG7BWJ) |
-| ID Card Badge Clip     |                    |   8 | [Amazon](https://www.amazon.de/dp/B0B1DL7PZ1) |
 
 ---
+
 Confirm quantities and dimensions against the current CAD before purchasing.
