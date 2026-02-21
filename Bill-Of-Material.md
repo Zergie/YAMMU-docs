@@ -55,7 +55,6 @@ This list is evolving. Verify quantities and dimensions against the CAD before o
 | PC4-M10 Fitting        |                    |   1 |     |
 | PHCS M2x8              |                    |   8 |     |
 | PHCS M3x25             |                    |   4 |     |
-| PTC Heater 200 W       |                    |   1 | [Amazon](https://www.amazon.de/gp/product/B08YYZRRYQ) |
 | PTFE Tubing 2x4        | 2 mm ID / 4 mm OD  |   ? |     |
 | PTFE Tubing 3x4        | 3 mm ID / 4 mm OD  |   ? | [RoboterBausatz](https://www.roboter-bausatz.de/p/1-meter-ptfe-schlauch-3-mm-x-4-mm-fuer-bowden-extruder) |
 | Rubber Feet 38x19      |                    |   4 |     |
