@@ -69,6 +69,7 @@ This list is evolving. Verify quantities and dimensions against the CAD before o
 | Wago 221-415           |                    |   2 |     |
 | Washer DIN 125-2 3.2   |                    |  16 |     |
 | Zip Ties 100x2.5 mm    |                    |   ? | [Amazon](https://www.amazon.de/gp/product/B07QHG7BWJ) |
+| PTC Heater 92×31 mm, 200 W, 24 V (54B2-Z) | 1 | |
 
 ---
 
