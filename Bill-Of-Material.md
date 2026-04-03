@@ -1,4 +1,4 @@
-This list is evolving. Verify quantities and dimensions against the CAD before ordering.
+This list is evolving. Verify quantities and dimensions against the CAD before ordering. Blank cost or supplier fields indicate standard hardware or parts typically sourced locally. A quantity of `?` means the final amount depends on build options or cut lengths.
 
 | Part Description       | Standard           | Qty | Cost Estimate | Buy |
 |------------------------|--------------------|-----|---------------|-----|
@@ -15,7 +15,7 @@ This list is evolving. Verify quantities and dimensions against the CAD before o
 | BHCS M4x16             |                    |  44 |               |     |
 | BHCS M4x8              |                    |   4 |               |     |
 | BHCS M5x10             |                    |  17 |               |     |
-| BHCS M5x16             |                    |  32 |               |     |
+| BHCS M5x16             | ISO 7380-1         |  32 |               |     |
 | BHCS M5x8              |                    |   2 |               |     |
 | Bondtech Drivegear Kit |                    |   4 |        6.36 € | [AliExpress](https://de.aliexpress.com/item/1005002625059015.html) |
 | Ceramic Fiber Paper 1 mm |                  |   1 |        7.59 € | [AliExpress](https://de.aliexpress.com/item/1005002970120483.html) |
@@ -33,12 +33,11 @@ This list is evolving. Verify quantities and dimensions against the CAD before o
 | Hex Nut M3             | ISO 4033 / DIN 934 |   2 |               |     |
 | Hex Nut M4             | ISO 4033 / DIN 934 |   1 |               |     |
 | Hex Nut M5             | ISO 4033 / DIN 934 |  20 |               |     |
-| ID Card Badge Clip     | ISO 4033 / DIN 934 |   8 |       10.99 € | [Amazon](https://www.amazon.de/dp/B0B1DL7PZ1) |
+| ID Badge Reel          |                    |   8 |       10.99 € | [Amazon](https://www.amazon.de/dp/B0B1DL7PZ1) |
 | JGB37-3525 BLDC Motor 24 V 952 rpm |        |   2 |       29.78 € | [AliExpress](https://de.aliexpress.com/item/1005007426917339.html) |
 | KHFS5-2020-200         |                    |   4 |       15.80 € |     |
 | KHFS5-2020-420         |                    |   6 |       33.96 € |     |
 | KHFS5-2020-500         |                    |   4 |       25.12 € |     |
-| M5x16 BHCS             | ISO 7380-1         |   ? |               |     |
 | M5x185 Threaded Rod    | DIN 975 / DIN 976  |   4 |        8.09 € | [ebay](https://www.ebay.de/itm/113990713056)   |
 | MEAN WELL LRS-600-24V  |                    |   1 |       61.99 € | [AliExpress](https://de.aliexpress.com/item/1005006092154615.html) |
 | Mica Sheet 0.3 mm      |                    |   1 |        2.69 € | [AliExpress](https://de.aliexpress.com/item/1005008527290868.html) |
@@ -65,7 +64,7 @@ This list is evolving. Verify quantities and dimensions against the CAD before o
 | Washer DIN 125-2 3.2   |                    |  16 |               |     |
 | Zip Ties 100x2.5 mm    |                    |   ? |        6.79 € | [Amazon](https://www.amazon.de/gp/product/B07QHG7BWJ) |
 
-Current total: ~ 430 €
+Estimated total: ~430 €
 
 ---
 

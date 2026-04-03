@@ -6,7 +6,7 @@ YAMMU is an open-source multi-material filament handling system designed for enc
 
 **This is not a commercial plug-and-play product.**
 
-YAMMU is in beta stage. Builders should understand mechanics, electronics, and the iterative nature of open-source hardware development. This project requires technical competency and patience. Contributions are welcome.
+YAMMU is in beta. Builders should understand mechanics, electronics, and the iterative nature of open-source hardware development. This project requires technical competence and patience. Contributions are welcome.
 
 ### Why YAMMU Exists
 
@@ -25,8 +25,8 @@ This project targets builders who value engineering clarity over marketing promi
 
 - **Study the CAD files thoroughly.** Understand how the system works before ordering parts.
 - **Read the build documentation in the main YAMMU repository.** It contains the current build steps, wiring notes, and Klipper/Happy Hare configuration details.
-- **Check the Bill of Materials.** See [Bill-Of-Material](Bill-Of-Material.md) for current component list.
-- **Expect iteration.** This is beta stage. You may need to adjust dimensions, tolerances, or component choices.
+- **Check the Bill of Materials.** See [Bill of Materials](Bill-Of-Material.md) for the current component list.
+- **Expect iteration.** This is beta hardware. You may need to adjust dimensions, tolerances, or component choices.
 - **Do not expect plug-and-play.** You may need to troubleshoot and modify parts. This is normal for open-source hardware.
 
 ### During the Build
@@ -38,14 +38,14 @@ This project targets builders who value engineering clarity over marketing promi
 
 **Electrical Safety**
 
-- YAMMU uses 24V DC for heater control and motor circuits inside the enclosure.
+- YAMMU uses 24 V DC for heater control and motor circuits inside the enclosure.
 - Mains voltage wiring must be performed by qualified personnel only.
 - Follow local electrical regulations and codes.
 - Do not route mains voltage inside heated enclosures unless absolutely necessary and properly rated.
 
 ### After First Power-On
 
-- Run thermal tests if using chamber heating. Monitor temperatures for 1 hour minimum.
+- Run thermal tests if using chamber heating. Monitor temperatures for at least 1 hour.
 - Verify filament feeds consistently at low speed before attempting fast retractions.
 - Ramp feeder speed/torque gradually. Aggressive settings can cause slip, grinding, or jams.
 

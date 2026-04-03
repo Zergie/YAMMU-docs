@@ -182,7 +182,7 @@ Values above are representative for common industrial closed-cell PE foam tapes.
 
 PE foam thermal conductivity (~0.04 W/(m·K)) is significantly lower than aluminum extrusion (~200 W/(m·K)) or panel materials (PC: 0.19-0.22 W/(m·K), PMMA: 0.17-0.19 W/(m·K)). At 3 mm thickness, foam tape provides effective thermal resistance between frame and panel.
 
-**For YAMMU, recommend 3 mm closed-cell PE foam tape.** 3.2 mm variants also suitable.
+**For YAMMU, 3 mm closed-cell PE foam tape is recommended.** 3.2 mm variants are also suitable.
 
 **Tape Specifications to Verify:**
 
@@ -259,7 +259,7 @@ Typical pricing (regional variation significant):
 | Acrylic (cast)     | 3 mm      | €25-35                  |
 | Polycarbonate      | 3 mm      | €40-55                  |
 
-Prices as of 2026. Small-quantity purchases may see 20-30% premium. Cut-to-size service adds €5-15 per cut.
+Treat these prices as indicative only. Small-quantity purchases may see a 20-30% premium. Cut-to-size service often adds another €5-15 per cut.
 
 ## Recommendations by Use Case
 

@@ -24,9 +24,9 @@ will not fit without modification. If you choose these for your build, use the S
 |------------|---------------|
 |        6mm |         5.1mm |
 
-Like the original KHFS5-2020, these share the same slot width. So original voron parts and voron
-mods will fit. For the blind joints you can use M6x16 bolts instead of the M5x16. For tapping M6 a
-5mm hole is needed, but 5.1mm is close enough.
+Like the original KHFS5-2020, these share the same slot width, so original Voron parts and Voron
+mods will fit. For blind joints you can use M6x16 bolts instead of M5x16. For tapping M6, a
+5 mm hole is needed, but 5.1 mm is close enough.
 
 You can also use an M5 Helicoil set and drill the hole to 5.2 mm using the included drill bit.
 After installing the Helicoil insert, use M5x16 like with the original extrusions.
@@ -37,7 +37,7 @@ After installing the Helicoil insert, use M5x16 like with the original extrusion
 |        6mm |     5.5-6.6mm |
 
 The most common 20x20 extrusion in Europe. It shares the same slot width, so original Voron
-parts and Voron mods are an option. For blind joints use M6x16 bolts and an M6 Helicoil set.
+parts and Voron mods are an option. For blind joints, use M6x16 bolts and an M6 Helicoil set.
 Drill the hole to 6.3 mm with the included drill bit and install the M6 Helicoil insert.
 
 ---

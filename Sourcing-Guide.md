@@ -1,9 +1,9 @@
-Practical guidance for acquiring components. Verify dimensions and interfaces against the CAD before ordering.
+Practical guidance for acquiring components. Verify dimensions, interfaces, and temperature ratings against the CAD before ordering.
 
 
 ## Frame & Structural Parts
 
-### Aluminum Extrusions
+### Aluminium Extrusions
 
 - 2020 profile standard throughout.
 - See [Where to get aluminium extrusions](Where-to-get-aluminium-extrusions.md) for extrusion variants and practical notes.
@@ -11,9 +11,9 @@ Practical guidance for acquiring components. Verify dimensions and interfaces ag
 
 ### Panels
 
-- **Polycarbonate recommended** for heated builds. Better dimensional stability at elevated temperatures, but creep can still occur depending on mounting and load.
+- **Polycarbonate recommended** for heated builds. It offers better dimensional stability at elevated temperatures, but creep can still occur depending on mounting and load.
 - **Acrylic acceptable** for non-heated or low-temperature applications.
-- Typical thickness: 3 mm for side panels, 4 mm for structural panels.
+- Typical panel thickness: 3 mm for standard YAMMU panels.
 - See [Where to get panels](Where-to-get-panels.md) for detailed material behavior.
 
 ### Fasteners
@@ -29,7 +29,7 @@ Practical guidance for acquiring components. Verify dimensions and interfaces ag
 #### BLDC Motors (36mm class)
 
 - YAMMU uses **36mm-class BLDC gear motors** for the feeders.
-- Typical supply voltage: **24V**.
+- Typical supply voltage: **24 V**.
 - Select gear ratio for the required feed speed and torque.
 - The commonly used **3525 gear motor** variant is typically based on the **JGB37** gearbox family.
 - Control interface is simple:
@@ -64,7 +64,7 @@ Practical guidance for acquiring components. Verify dimensions and interfaces ag
 - 608 bearings typical.
 - Ensure smooth rotation. Binding rollers cause feed inconsistency.
 - Spool holders include an auto-rewind feature with an adjustable clutch.
-- Rewind force is provided by an ID card badge spring.
+- Rewind force is provided by an ID badge reel spring.
 
 ### Filament Sensors
 
@@ -80,7 +80,7 @@ This section requires careful attention to safety.
 
 ### Power Supply
 
-- **24V DC PSU recommended.** 600W range typical for 8-channel system with optional heating.
+- **24 V DC PSU recommended.** 600 W range is typical for a system with heating.
 - Mean Well LRS-600-24 widely used and reliable.
 - Size PSU for continuous load, not peak. Leave 20% headroom.
 
@@ -109,8 +109,8 @@ Adding chamber heating increases complexity and risk. Proceed only if you unders
 ### PTC Heaters
 
 - Self-limiting ceramic heaters. Simple and robust.
-- Typical: 200W heater.
-- Operate on 24V DC or mains AC depending on model. **DC variants strongly preferred inside chamber.**
+- Typical: 2x 200 W heater.
+- Operate on 24 V DC or mains AC depending on model. **DC variants are strongly preferred inside the chamber.**
 
 ### Thermal Protection
 

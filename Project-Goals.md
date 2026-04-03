@@ -2,7 +2,7 @@ YAMMU prioritizes mechanical reliability and serviceability over feature count.
 
 ## Design Constraints
 
-YAMMU targets enclosed printers and may operate in elevated chamber temperatures. Components and mounting methods should allow for thermal expansion and long-term creep behavior where applicable. The system is designed for Klipper with Happy Hare and should remain serviceable with common tools, using readily available parts. Electrical design should prefer 24 V inside the chamber where practical, and avoid routing mains voltage through heated areas.
+YAMMU targets enclosed printers and may operate in elevated chamber temperatures. Components and mounting methods should allow for thermal expansion and long-term creep behavior where applicable. The system is designed for Klipper with Happy Hare and should remain serviceable with common tools using readily available parts. Electrical design should prefer 24 V inside the chamber where practical and avoid routing mains voltage through heated areas.
 
 Additional constraints used in the released files:
 
@@ -17,13 +17,13 @@ Additional constraints used in the released files:
 - **Mechanical reliability first.** Robust feed mechanism and consistent filament path.
 - **Simple filament path.** Minimize friction points and failure modes.
 - **Low-friction and serviceable design.** Components can be accessed, maintained, and replaced.
-- **Prefer 24V systems over mains voltage inside the chamber.** Reduce risk by using lower voltage where practical.
+- **Prefer 24 V systems over mains voltage inside the chamber.** Reduce risk by using lower voltage where practical.
 - **Builder freedom.** Choose PSU and heater type. Avoid proprietary lock-in where practical.
 - **Scalable concept.** Modular architecture allows future expansion.
 
 ## Notes
 
-- YAMMU is beta-stage and evolving. Verify dimensions and fit before ordering parts.
+- YAMMU is beta and evolving. Verify dimensions and fit before ordering parts.
 - Heated builds require careful electrical design. Follow local electrical regulations and applicable safety practices.
 
 ## Voron Print Settings
