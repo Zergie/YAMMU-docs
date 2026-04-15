@@ -4,6 +4,10 @@ YAMMU uses four drawer slides to support two spool drawers inside the heated enc
 
 YAMMU requires full-extension ball-bearing drawer slides. Full extension is necessary to reach the rear spool positions when loading filament. Without full extension, the rear spools are not accessible without removing the drawer entirely. Partial-extension slides reduce usable access and are not compatible with this requirement.
 
+<img width="1275" height="215" alt="image" src="https://github.com/user-attachments/assets/bc179d36-d65a-4d51-a95c-3132a673e339" />
+<img width="1275" height="215" alt="image" src="https://github.com/user-attachments/assets/7f2daae4-9e14-4e44-bf46-a26ccbd173d8" />
+
+
 | Parameter    | Required Value              |
 |--------------|-----------------------------|
 | Extension    | Full extension (100%)       |
@@ -25,7 +29,7 @@ Each pair of slides carries one drawer. YAMMU has two drawers, so two pairs are 
 
 ## Sourcing Notes
 
-Standard 35 mm wide full-extension ball-bearing slides in 400 mm or 16 inch length are widely available. European hardware suppliers, local cabinet fitting suppliers, and online marketplaces carry compatible slides. Quality varies; ball-bearing smoothness and side-load rigidity differ significantly between budget and mid-range options.
+Standard 35 mm wide full-extension ball-bearing slides in 400 mm or 15 3/4 inch length are widely available. European hardware suppliers, local cabinet fitting suppliers, and online marketplaces carry compatible slides. Quality varies; ball-bearing smoothness and side-load rigidity differ significantly between budget and mid-range options.
 
 The BOM includes a sourced reference that has been tested in the current YAMMU configuration. Substitutions may work, but verify width, length, load rating, and mounting hole pattern before ordering.
 
@@ -37,7 +41,6 @@ Many slides are available with additional features. None of these have been test
 - **Push-to-open**: Spring-loaded mechanism opens the drawer without a handle. May add bulk or affect mounting geometry.
 - **Self-closing**: Spring pulls the drawer closed from partway. May resist drawer extension under low load.
 - **Over-extension**: Extends beyond 100% of slide length. May increase usable travel but verify frame clearance.
-- **Disconnect/removable**: Allows the drawer to detach fully from the slide. Not required for YAMMU but may simplify initial assembly.
 
 If you are willing to test any of these features with YAMMU, get in contact with the project team before starting.
 
