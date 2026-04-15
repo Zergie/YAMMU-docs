@@ -2,6 +2,8 @@ Notes on extrusion variants and sourcing.
 
 In Europe, Misumi typically does not ship to individuals, so sourcing KHFS extrusions can be difficult. There are several alternatives.
 
+<img width="501" height="298" alt="image" src="https://github.com/user-attachments/assets/275539be-2516-420e-994f-dbd9225c3056" />
+
 ## KHFS5-2020
 | Slot Width | Hole Diameter |
 |------------|---------------|
