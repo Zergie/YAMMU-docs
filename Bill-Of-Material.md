@@ -68,7 +68,7 @@ Quantities in this section were synchronized from Fusion 360 Assembly v127 on 20
 | Washer DIN 125-2 3.2  |                    | 2   |               |                                                                                                                      |
 
 ## Motion, Control, and Utilities
-This section groups motion, drivetrain, control, power, filament path, and miscellaneous items. For enclosure-related thermal decisions that affect several of these parts, see [Where to get panels](Where-to-get-panels.md).
+This section groups motion, drivetrain, control, power, filament path, and miscellaneous items.
 
 | Part Description                                                            | Standard          | Qty | Cost Estimate | Buy                                                                                                                                  |
 |-----------------------------------------------------------------------------|-------------------|-----|---------------|--------------------------------------------------------------------------------------------------------------------------------------|
