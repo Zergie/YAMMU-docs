@@ -79,10 +79,13 @@ This section groups motion, drivetrain, control, power, filament path, and misce
 | Bondtech Drivegear Kit                                                      |                   | 8   | 26.78 €       | [AliExpress](https://de.aliexpress.com/item/1005002625059015.html)                                                                   |
 | Ceramic Fiber Paper 1 mm                                                    |                   | 1   | 7.59 €        | [AliExpress](https://de.aliexpress.com/item/1005002970120483.html)                                                                   |
 | DIN Rail 200 mm                                                             |                   | 2   | 4.38 €        | [AliExpress](https://de.aliexpress.com/item/1005003134385396.html)                                                                   |
-| Drawer Runners Full Extension, 400 mm or 15 3/4 inch Length, 35 mm Width, 25 kg |                   | 4   | 30.36 €       | [AliExpress](https://de.aliexpress.com/item/1005011654143417.html) — see [Where to get drawer slides](Where-to-get-drawer-slides.md) |
+| Drawer Runners Full Extension, 400 mm or 15 3/4 inch Length, 35 mm Width, 25 kg |               | 4   | 30.36 €       | [AliExpress](https://de.aliexpress.com/item/1005011654143417.html) — see [Where to get drawer slides](Where-to-get-drawer-slides.md) |
 | DSPOWER 21g Metal Gear Servo                                                |                   | 4   | 16.76 €       | [AliExpress](https://de.aliexpress.com/item/1005007514640225.html)                                                                   |
 | ECAS04 Collet                                                               |                   | 12  | 20.28 €       | [AliExpress](https://de.aliexpress.com/item/32934148155.html)                                                                        |
 | ECAS04 Collet Clip                                                          |                   | 12  | 3.72 €        | [AliExpress](https://de.aliexpress.com/item/32892392365.html)                                                                        |
+| GT2 28T (6mm wide) Pulley - 5 mm Bore                                       |                   | 2   | 12.78 €       | [AliExpress](https://de.aliexpress.com/item/1005005910392023.html)                                                                   |
+| GT2 30T (6mm wide) Pulley - 6 mm Bore                                       |                   | 2   | 12.58 €       | [AliExpress](https://de.aliexpress.com/item/1005005910392023.html)                                                                   |
+| GT2 Belt Loop (6mm wide) - 110 mm                                           |                   | 2   | 9.18 €        | [AliExpress](https://de.aliexpress.com/item/1005008656384195.html)                                                                   |
 | ID Badge Reel                                                               |                   | 8   | 10.99 €       | [Amazon](https://www.amazon.de/dp/B0B1DL7PZ1)                                                                                        |
 | JGB37-3525 BLDC Motor 24 V 952 rpm                                          |                   | 2   | 29.78 €       | [AliExpress](https://de.aliexpress.com/item/1005007426917339.html)                                                                   |
 | MEAN WELL LRS-600-24V                                                       |                   | 1   | 61.99 €       | [AliExpress](https://de.aliexpress.com/item/1005006092154615.html)                                                                   |
@@ -98,7 +101,8 @@ This section groups motion, drivetrain, control, power, filament path, and misce
 | Wago 221-415                                                                |                   | 2   | 13.79 €       | [Amazon](https://www.amazon.de/dp/B0107SYYGU)                                                                                        |
 | Zip Ties 100x2.5 mm                                                         |                   | ?   | 6.79 €        | [Amazon](https://www.amazon.de/gp/product/B07QHG7BWJ)                                                                                |
 
-Estimated total: ~470 €
+
+Estimated total: ~500 €
 
 
 ---
