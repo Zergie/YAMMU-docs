@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # Initial history import; can be read after the first successful import.
+  contents: read # Existing wiki history has been imported; publishing uses WIKI_TOKEN.
 
 concurrency:
   group: publish-yammu-wiki
