@@ -1,0 +1,84 @@
+name: Publish wiki
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write # Initial history import; can be read after the first successful import.
+
+concurrency:
+  group: publish-yammu-wiki
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'Zergie/YAMMU-docs' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      WIKI_TOKEN: ${{ secrets.WIKI_TOKEN }}
+      GIT_TERMINAL_PROMPT: '0'
+    steps:
+      - name: Import existing history and publish main to the wiki
+        shell: bash
+        run: |
+          set -euo pipefail
+          docs_url='https://github.com/Zergie/YAMMU-docs.git'
+          wiki_url='https://github.com/Zergie/YAMMU.wiki.git'
+          docs_auth="$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
+          echo "::add-mask::$docs_auth"
+          docs_git() {
+            git -c "http.${docs_url}.extraheader=AUTHORIZATION: basic $docs_auth" "$@"
+          }
+
+          # Read latest main so a delayed run cannot publish an obsolete snapshot.
+          docs_git clone --branch main --single-branch "$docs_url" "$RUNNER_TEMP/yammu-docs"
+          cd "$RUNNER_TEMP/yammu-docs"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git remote add wiki "$wiki_url"
+          git fetch wiki refs/heads/master:refs/remotes/wiki/master
+
+          # One-time import of the wiki's original Git objects and history.
+          # Refuse to combine unrelated populated repositories.
+          if git merge-base HEAD refs/remotes/wiki/master >/dev/null; then
+            echo "Wiki history is already connected."
+          else
+            status=$?
+            if [ "$status" -ne 1 ]; then
+              echo "::error::Unable to inspect repository ancestry."
+              exit "$status"
+            fi
+            python3 - <<'PY'
+          import subprocess
+          paths = subprocess.check_output(["git", "ls-files", "-z"]).split(b"\0")
+          if any(path and not path.startswith(b".github/") for path in paths):
+              raise SystemExit("Refusing initial import: unrelated documentation files already exist.")
+          PY
+            git merge --allow-unrelated-histories --no-edit refs/remotes/wiki/master \
+              -m "Import existing YAMMU wiki with complete history"
+            # A concurrent main update is rejected; rerun instead of overwriting it.
+            docs_git push origin HEAD:refs/heads/main
+            echo "Imported existing wiki history into main." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          if [ -z "$WIKI_TOKEN" ]; then
+            echo "::error::Wiki imported. Add the WIKI_TOKEN Actions secret, then run this workflow again."
+            echo "Publishing requires the WIKI_TOKEN repository secret." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+
+          # Direct wiki edits must first be merged into main.
+          if ! git merge-base --is-ancestor refs/remotes/wiki/master HEAD; then
+            echo "::error::Wiki has commits missing from main. Merge wiki/master into main and rerun."
+            exit 1
+          fi
+
+          wiki_auth="$(printf 'x-access-token:%s' "$WIKI_TOKEN" | base64 -w0)"
+          echo "::add-mask::$wiki_auth"
+          git -c "http.${wiki_url}.extraheader=AUTHORIZATION: basic $wiki_auth" \
+            push wiki HEAD:refs/heads/master
+          echo "Published commit $(git rev-parse HEAD) to the YAMMU wiki." >> "$GITHUB_STEP_SUMMARY"
