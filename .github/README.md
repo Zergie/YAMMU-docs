@@ -1,36 +1,51 @@
 # YAMMU documentation
 
-Community contributions to the [YAMMU wiki](https://github.com/Zergie/YAMMU/wiki).
+Contribute to the [YAMMU wiki](https://github.com/Zergie/YAMMU/wiki) by editing
+pages in this repository and opening a pull request against `main`.
 
-## Contributing
-Edit the Markdown pages in the repository root and open a pull request against `main`.
-Keep existing filenames and wiki links intact unless a rename is intentional.
-After a merge or direct push to `main`, GitHub Actions publishes the same commits to
-`Zergie/YAMMU.wiki.git` on `master`.
+## Repository-only files
 
-Please make documentation changes here. Direct wiki edits must be merged back into
-`main` before publishing can resume; the workflow never force-pushes.
+List paths in the root `.wikiignore` to keep them tracked here but exclude them
+from the published wiki. Rules use Git's gitignore syntax, independently of
+`.gitignore`: comments, wildcards, `**`, leading `/`, directories and `!` exceptions.
+Patterns without a slash match at any depth; a leading `/` anchors to the root.
+As with gitignore, a file cannot be re-included while its parent directory is excluded.
 
-## Initial setup
-The first workflow run imports the existing wiki, including its complete Git history.
-It can complete that import even before publishing credentials are configured.
+Defaults exclude `.github/`, root README/CONTRIBUTING files, `.wikiignore`,
+`.gitignore`, agent instructions (`AGENTS.md`, `CLAUDE.md`, `GEMINI.md`), and
+`skills/`, `.agents/`, `.claude/`, `.codex/` directories at any depth.
+This covers `.github/skills/`, `.agents/skills/` and `.claude/skills/` too.
+Edit these rules if any of those names should be actual wiki content.
 
-Add an Actions repository secret named `WIKI_TOKEN` with a token owned by an account
-that can push to the YAMMU wiki. For this public wiki, a classic personal access token
-with the `public_repo` scope can be used. Treat it as a credential: do not commit it.
-The default `GITHUB_TOKEN` belongs to YAMMU-docs and does not grant access to YAMMU.
+Example:
 
-After adding the secret, open Actions → Publish wiki → Run workflow on `main`.
-Repository settings must allow GitHub Actions and the workflow's `contents: write`
-permission for the initial import. Once imported, publication needs only read access
-to YAMMU-docs; `contents: write` can be reduced to `contents: read`.
+```gitignore
+/internal-notes/
+**/draft-*.md
+```
 
-## Sync behavior
-Runs are serialized and publish the latest `main`, including all preceding commits.
-The target wiki branch is `master`; the source branch is `main`.
-The workflow performs only fast-forward wiki pushes. Divergence produces an error.
-If you edit the wiki directly, fetch its `master` branch, merge it into `main`
-through a pull request, then run publication again.
+## Publishing
 
-The workflow configuration and this guide live under `.github/` so the repository
-root remains dedicated to wiki pages. Exact commit mirroring includes these files.
+Pushes to `main` and manual runs of **Actions → Publish wiki** publish the latest
+filtered snapshot to `Zergie/YAMMU.wiki.git`, branch `master`. Only tracked files
+are considered. Binary assets and file modes are preserved. Deletions and newly
+ignored files are removed from the current wiki tree; old history is retained.
+Ignored-only changes create no wiki commit. Ignore rules do not remove previously
+published material from Git history and should not be used to hide secrets.
+
+Wiki commits have their own IDs and record the source commit in a
+`YAMMU-Docs-Source` trailer. Runs are serialized and always use the latest `main`,
+so a single publication may include multiple source commits. The original wiki's
+19 commits have already been imported into this repository.
+
+The workflow never force-pushes. If somebody edits the wiki directly, publication
+stops. Fetch its `master` branch and merge it into `main` through a pull request,
+resolving any conflicts, then rerun publication. Concurrent wiki updates also
+cause the push to fail safely. An empty filtered wiki is rejected.
+
+## Credentials
+
+Add an Actions repository secret named `WIKI_TOKEN` with credentials that can push
+to the YAMMU wiki. A classic personal access token with `public_repo` scope can be
+used for this public wiki. Do not commit the token. Then manually run **Publish wiki**.
+The source repository's `GITHUB_TOKEN` only needs `contents: read`.

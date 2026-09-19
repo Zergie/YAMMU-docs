@@ -1,0 +1,17 @@
+# Gitignore syntax. These files stay tracked in YAMMU-docs only.
+/.wikiignore
+/.gitignore
+/.github/
+/README.md
+/CONTRIBUTING.md
+
+# Agent instructions at any depth.
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
+# Skills and agent configuration directories at any depth.
+skills/
+.agents/
+.claude/
+.codex/
